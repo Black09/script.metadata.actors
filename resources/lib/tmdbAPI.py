@@ -1,5 +1,4 @@
-﻿
-DEBUG = 0
+﻿DEBUG = 0
 
 import os
 import sys
@@ -178,7 +177,6 @@ def configuration( refresh=False ):
         #print js
         print json.dumps( js, sort_keys=True, indent=2 )
     return js[ 'images' ]
-
 
 
 def download( url, destination ):
@@ -368,7 +366,6 @@ def load_movie_info( movieid ):
     except:
         pass
     return info
-
 
 
 if __name__=="__main__":

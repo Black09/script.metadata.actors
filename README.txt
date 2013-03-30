@@ -60,13 +60,22 @@ Special Launch for Artists from DialogAlbumInfo.xml:
 
 
 Available Property for hide DialogVideoInfo.xml / DialogAlbumInfo.xml:
-Window.Property(script.metadata.actors.isactive): return 1 or empty
+Window(Home).Property(script.metadata.actors.isactive): return 1 or empty
 
 For example:
-<onload>ClearProperty(script.metadata.actors.isactive)</onload>
+<onload>ClearProperty(script.metadata.actors.isactive,home)</onload>
 
-<animation effect="slide" start="1100,0" end="0,0" time="400" condition="!StringCompare(Window.Property(script.metadata.actors.isactive),1)">Conditional</animation>
-<animation effect="slide" start="0,0" end="1100,0" time="400" condition="StringCompare(Window.Property(script.metadata.actors.isactive),1)">Conditional</animation>
+<animation effect="slide" start="1100,0" end="0,0" time="400" condition="!StringCompare(Window(Home).Property(script.metadata.actors.isactive),1)">Conditional</animation>
+<animation effect="slide" start="0,0" end="1100,0" time="400" condition="StringCompare(Window(Home).Property(script.metadata.actors.isactive),1)">Conditional</animation>
+
+Additional new properties:
+Window(Home).Property(script.metadata.actors.hasparent): return 1 or empty
+Window(Home).Property(script.metadata.actors.push): return 1 or empty
+
+hasparent property is 1 if the current dialog has still a parent which means that there are at least 2 items on the current stack
+
+push property is 1 if there is currently pushed something on the stack and it's empty if an item gets removed from the stack.
+It can be used to have different animations on push/pop, e.g. something slides in from left to right on push and from right to left on pop.
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -140,6 +149,7 @@ List of Built In Controls Available In script-Actors-DialogVideoInfo.xml:
 8 ---> button ----> (currently not used in python)
 10 --> button ----> (currently not used in python)
 20 --> button ----> movie fanart
+71 --> button ----> search for director
 50 --> container -> window movie info
 150 -> container -> actor / director / writer / artist listing
 
@@ -177,6 +187,7 @@ ListItem.Property(releasedate) ----> release date of movie
 ListItem.Property(lastupdated) ----> last update info
 ListItem.Property(Homepage) -------> Link of homepage, you can use onclick for open web browser directly on homepage: RunScript(script.metadata.actors,homepage=$INFO[ListItem.Property(Homepage)])
 ListItem.Property(onlineinfo) -----> Link to visit movie on site, you can use onclick for open web browser directly on site: RunScript(script.metadata.actors,homepage=$INFO[ListItem.Property(onlineinfo)])
+ListItem.Property(dbid) -----------> This can be used for the video language script or whatever else
 
 Labels of the list actor / director / writer / artist.
 Container(150).Listitem.Title -------------------> Name

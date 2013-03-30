@@ -4,7 +4,7 @@ import sys
 import xbmc
 from traceback import print_exc
 
-xbmc.executebuiltin( "SetProperty(script.metadata.actors.isactive,1)" )
+xbmc.executebuiltin( "SetProperty(script.metadata.actors.isactive,1,home)" )
 
 try:
     args = ",".join( sys.argv[ 1: ] )
@@ -47,4 +47,6 @@ try:
 except:
     print_exc()
 
-xbmc.executebuiltin( "ClearProperty(script.metadata.actors.isactive)" )
+xbmc.executebuiltin( "ClearProperty(script.metadata.actors.isactive,home)" )
+xbmc.executebuiltin( "ClearProperty(script.metadata.actors.hasparent,home)" )
+xbmc.executebuiltin( "ClearProperty(script.metadata.actors.push,home)" )

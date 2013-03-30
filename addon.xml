@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.metadata.actors" name="Metadata Actors pre-1.0.0"
-       version="0.9.7" provider-name="Frost (passion-xbmc.org)">
+<addon id="script.metadata.actors" name="Metadata Actors pre-1.0.0" version="0.9.8" provider-name="Frost (passion-xbmc.org)|`Black">
   <requires>
-    <import addon="xbmc.python" version="2.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="2.0.10"/>
   </requires>
   <extension point="xbmc.python.script" library="default.py" />
   <extension point="xbmc.service" library="resources/lib/service.py" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Actors Library</summary>
-    <description lang="en">Actors Library</description>
+    <description lang="en">With this script you can view meta information such as biography, birthday or filmography of an actor, director or writer. It's possible to show information about all movies even if they are not available in the local movie library.</description>
     <disclaimer lang="en">If you want more actors or fixing errors of infos. Go to themoviedb.org</disclaimer>
     <license>GPL</license>
     <platform>all</platform>
-    <nofanart>true</nofanart>
+    <forum>-</forum>
+    <source>-</source>
+    <email>-</email>
   </extension>
 </addon>

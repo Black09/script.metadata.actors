@@ -1,5 +1,4 @@
-﻿
-import os
+﻿import os
 from traceback import print_exc
 
 try:

@@ -1,4 +1,3 @@
-
 import metautils
 import actorsdb
 
@@ -32,8 +31,8 @@ def setActorProperties( listitem, actor ):
 
     birthday = metautils.get_user_date_format( birthday, bdayformat )
     deathday = metautils.get_user_date_format( ( actor[ "deathday" ] or "" ), bdayformat )
-    listitem.setProperty( "Birthday",     metautils.translate_date( birthday, dateformat ) )
-    listitem.setProperty( "Deathday",     metautils.translate_date( deathday, dateformat ) )
+    listitem.setProperty( "Birthday",     str(metautils.translate_date( birthday, dateformat )) )
+    listitem.setProperty( "Deathday",     str(metautils.translate_date( deathday, dateformat )) )
 
     actuel_age, dead_age, dead_since = metautils.get_ages( actor[ "birthday" ], actor[ "deathday" ] )
     listitem.setProperty( "Age",          actuel_age )

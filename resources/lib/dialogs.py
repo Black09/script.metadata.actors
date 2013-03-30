@@ -1,4 +1,3 @@
-
 # Modules general
 import os
 import re
@@ -141,7 +140,7 @@ class Browser( xbmcgui.WindowXMLDialog ):
         if self.thumb_type == "thumb":
             icon = "".join( TBN.get_thumb( self.search_name ) )
         else:
-            icon = TBN.get_fanarts( self.search_name )[ 0 ]
+            icon = TBN.get_fanart( self.search_name )[ 0 ]
         return icon
 
     def onInit( self ):

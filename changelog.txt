@@ -1,4 +1,12 @@
-﻿v0.9.7
+﻿v0.9.8
+- added: new properties for animating transitions
+- added: button for director in movie info
+- added: dbid property for local movies
+- fixed: error if birth and/or death day < 1900
+- fixed: labels in movie info
+- removed: default fallbacks -> allows the use of proper fallback images
+
+v0.9.7
  - added: Hebrew language (thanks to BuSHari)
 
 v0.9.6

@@ -1,4 +1,3 @@
-
 import os
 import re
 import time
@@ -130,7 +129,7 @@ def keyboard( text="", heading=Language( 32033 ) ):
 
 
 def get_library_movie_details( movieid ):
-    props = '["title", "genre", "year", "rating", "director", "trailer", "tagline", "plot", "plotoutline", "originaltitle", "lastplayed", "playcount", "writer", "studio", "mpaa", "cast", "country", "imdbnumber", "premiered", "productioncode", "runtime", "set", "showlink", "top250", "votes", "streamdetails", "fanart", "thumbnail", "file", "resume"]'
+    props = '["title", "genre", "year", "rating", "director", "trailer", "tagline", "plot", "plotoutline", "originaltitle", "lastplayed", "playcount", "writer", "studio", "mpaa", "cast", "country", "imdbnumber", "runtime", "set", "showlink", "top250", "votes", "streamdetails", "art", "file", "resume"]'
     json_string = xbmc.executeJSONRPC( '{"jsonrpc": "2.0", "id":"1", "method":"VideoLibrary.GetMovieDetails", "params": {"movieid": %s, "properties": %s}}' % ( movieid, props ) )
     json_string = unicode( json_string, 'utf-8', errors='ignore' )
     result = ( json.loads( json_string ).get( "result" ) or {} )
@@ -375,9 +374,7 @@ def save_trailers( trailer, lang ):
 
     
 class Thumbnails:
-    BASE_THUMB_PATH   = "special://thumbnails/"
-    VIDEO_THUMB_PATH  = BASE_THUMB_PATH + "Video/"
-    ARTIST_THUMB_PATH = BASE_THUMB_PATH + "Music/Artists/"
+    THUMB_PATH   = "special://thumbnails/"
 
     def __init__( self, library_type=LIBRARY_TYPE ):
         self.library_type = library_type
@@ -391,39 +388,33 @@ class Thumbnails:
             thumb = filename
         if SET_EXT:
             thumb = os.path.splitext( thumb )[ 0 ] + os.path.splitext( path1 )[ 1 ]
+        if ".tbn" in thumb:
+            thumb.replace( "tbn", "jpg" )
         return [ path2, thumb ]
 
     def get_cached_actor_fanart( self, strLabel ):
-        return self.get_cached_thumb( strLabel, self.VIDEO_THUMB_PATH + "Fanart/" )
+        return self.get_cached_thumb( strLabel, self.THUMB_PATH, True )
 
     def get_cached_actor_thumb( self, strLabel ):
-        return self.get_cached_thumb( "actor" + strLabel, self.VIDEO_THUMB_PATH, True )
+        return self.get_cached_thumb( "actor" + strLabel, self.THUMB_PATH, True )
 
     def get_cached_artist_fanart( self, strLabel ):
-        return self.get_cached_thumb( strLabel, self.ARTIST_THUMB_PATH.replace( "Artists", "Fanart" ) )
+        return self.get_cached_thumb( strLabel, self.THUMB_PATH, True )
 
     def get_cached_artist_thumb( self, strLabel ):
-        return self.get_cached_thumb( "artist" + strLabel, self.ARTIST_THUMB_PATH )
+        return self.get_cached_thumb( "artist" + strLabel, self.THUMB_PATH )
 
     def get_cached_url_thumb( self, strPath ):
-        return self.get_cached_thumb( strPath, self.BASE_THUMB_PATH, True, True )
+        return self.get_cached_thumb( strPath, self.THUMB_PATH, True, True )
 
-    def get_fanarts( self, strLabel ):
-        fanart = xbmc.getCacheThumbName( strLabel )
-        actor_fanart  = self.VIDEO_THUMB_PATH + "Fanart/" + fanart
-        artist_fanart = self.ARTIST_THUMB_PATH.replace( "Artists", "Fanart" ) + fanart
-        if self.library_type == "artist":
-            return  artist_fanart, actor_fanart
-        else:
-            return  actor_fanart, artist_fanart
+    def get_fanart( self, strLabel ):
+        return self.THUMB_PATH + "Fanart/" + xbmc.getCacheThumbName( strLabel )
 
     def get_thumb( self, strPath ):
         if self.library_type == "artist":
-            return self.get_cached_artist_thumb( strPath  )
-
+            return self.get_cached_artist_thumb( strPath )
         elif self.library_type == "actor":
-            return self.get_cached_actor_thumb( strPath  )
-
+            return self.get_cached_actor_thumb( strPath )
         else:
             #selected = xbmcgui.Dialog().yesno( "Thumbnails!", "Please select appropriate type of person!", "", "", "Actor", "Artist" )
             #self.get_thumb( strPath, ( "actor", "artist" )[ selected ] )
