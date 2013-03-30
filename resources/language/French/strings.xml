@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+  <!-- General strings -->
+  <string id="32000">XBMC Metadata Acteurs</string>
+
+  <string id="32010">Filmographie</string>
+  <string id="32011">Films connus</string>
+  <string id="32012">Né(e) le</string>
+  <string id="32013">Décédé(e) le</string>
+  <string id="32014">Lieu de naissance</string>
+  <string id="32015">Acteur adulte</string>
+  <string id="32016">Alias</string>
+  <string id="32017">Homepage</string>
+  <string id="32018">Rôle</string>
+  <string id="32019">Job</string>
+  <string id="32020">%s ans</string>
+  <string id="32021">depuis %s ans</string>
+  <string id="32022">Date de sortie</string>
+
+  <string id="32024">Page</string>
+  <string id="32025">Objets</string>
+
+  <string id="32030">Films - Acteur</string>
+  <string id="32031">Séries TV - Acteur</string>
+  <string id="32032">Films - Directeur</string>
+  <string id="32033">Entrez une nom de personne</string>
+  <string id="32034">Résultats pour "%s"</string>
+  <string id="32035">Pour pouvoir éditer un profil...</string>
+  <string id="32036">Vous devez posséder un compte TMDB !</string>
+
+  <string id="32040">Sélectionner la taille de l'image</string>
+  <string id="32041">Succès ! Nouvelle vignette créée.</string>
+  <string id="32042">Erreur ! Impossible de créer la nouvelle vignette !</string>
+
+  <string id="32050">Informations en ligne</string>
+  <string id="32051">Bandes-annonces</string>
+  <string id="32052">Aucune bande-annonce de trouvée !</string>
+
+  <string id="32099">Inclure les Stars du X</string>
+  <string id="32100"></string>
+  <string id="32101"></string>
+  <string id="32102">Qualité du retournement des fanarts</string>
+
+  <string id="32105">Info Dialogue</string>
+  <string id="32106">Afficher plein format</string>
+  <string id="32107">Afficher le label Acteur adulte</string>
+  <string id="32108">Seulement si c'est vrai</string>
+
+  <string id="32110">Multiimage</string>
+  <string id="32111">Activer le Multiimage</string>
+  <string id="32112">Randomiser</string>
+  <string id="32113">Temps par image (seconde)</string>
+  
+  <string id="32121">Sélectionnez un fanart ou plus pour extrafanart</string>
+  <string id="32122">Confirmez Téléchargement...</string>
+  <string id="32123">%i sur %i ont été sélectionnés !</string>
+  <string id="32124">Êtes-vous sûr de vouloir télécharger ce(s) fichier(s) ?</string>
+  <string id="32125">Téléchargement: %i de %i - %i%%</string>
+  <string id="32126">Choisir un dossier pour&#32;</string>
+  <string id="32127">extrafanart</string>
+  <string id="32128">extrathumb</string>
+  <string id="32129">-</string>
+  <string id="32130">-</string>
+  <string id="32131">Sélectionnez un poster ou plus pour extrathumb</string>
+
+  <string id="32135">Confirmez écrasement...</string>
+  <string id="32136">Voulez-vous écraser les fichiers existants?</string>
+
+  <string id="32311">Image fanart[CR][CR]Indisponible[CR][CR]Cliquez sur le bouton pour définir</string>
+  <string id="32330">Cliquez sur le bouton[CR][CR]pour visionner[CR][CR]la bande annonce du film</string>
+</strings>

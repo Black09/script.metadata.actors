@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+  <!-- General strings -->
+  <string id="32000">XBMC Metadata Actors</string>
+
+  <string id="32010">Filmography</string>
+  <string id="32011">Known Movies</string>
+  <string id="32012">Birthday</string>
+  <string id="32013">Day of Death</string>
+  <string id="32014">Place of Birth</string>
+  <string id="32015">Adult Actor</string>
+  <string id="32016">Also Known As</string>
+  <string id="32017">Homepage</string>
+  <string id="32018">Role</string>
+  <string id="32019">Job</string>
+  <string id="32020">age %s</string>
+  <string id="32021">since %s years</string>
+  <string id="32022">Release Date</string>
+
+  <string id="32024">Page</string>
+  <string id="32025">Items</string>
+
+  <string id="32030">Movies Acting</string>
+  <string id="32031">TvShows Acting</string>
+  <string id="32032">Movies Directing</string>
+  <string id="32033">Enter Person Name</string>
+  <string id="32034">Person results for "%s"</string>
+  <string id="32035">For editing a profile...</string>
+  <string id="32036">You must have an account TMDB!</string>
+
+  <string id="32040">Select Image Size</string>
+  <string id="32041">Success! New thumb created.</string>
+  <string id="32042">Error! Impossible to create new thumb!</string>
+
+  <string id="32050">Online information</string>
+  <string id="32051">Trailers</string>
+  <string id="32052">No trailers found!</string>
+
+  <string id="32099">Include Pornstars</string>
+  <string id="32100"></string>
+  <string id="32101"></string>
+  <string id="32102">Quality of flipping fanarts</string>
+
+  <string id="32105">Dialog info</string>
+  <string id="32106">Show full format</string>
+  <string id="32107">Show label Adult Actor</string>
+  <string id="32108">Only if true</string>
+
+  <string id="32110">Multiimage</string>
+  <string id="32111">Enable Multiimage</string>
+  <string id="32112">Randomize</string>
+  <string id="32113">Time per image (second)</string>
+  
+  <string id="32121">Select one fanart or more for extrafanart</string>
+  <string id="32122">Confirm Downloading...</string>
+  <string id="32123">%i of %i have been selected!</string>
+  <string id="32124">Are you sure download this files?</string>
+  <string id="32125">Download: %i of %i - %i%%</string>
+  <string id="32126">Choose folder for&#32;</string>
+  <string id="32127">extrafanart</string>
+  <string id="32128">extrathumb</string>
+  <string id="32129">-</string>
+  <string id="32130">-</string>
+  <string id="32131">Select one thumb or more for extrathumb</string>
+
+  <string id="32135">Confirm overwrite...</string>
+  <string id="32136">Do you want overwrite your existing files?</string>
+
+  <string id="32311">Fanart image[CR][CR]Unavailable[CR][CR] Click button to set</string>
+  <string id="32330">Click button to play[CR][CR]Movie trailer</string>
+</strings>

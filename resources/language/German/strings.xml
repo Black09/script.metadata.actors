@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+  <!-- General strings -->
+  <string id="32000">XBMC Metadaten Schauspieler</string>
+
+  <string id="32010">Filmografie</string>
+  <string id="32011">bekannte Filme</string>
+  <string id="32012">Geburtstag</string>
+  <string id="32013">Todestag</string>
+  <string id="32014">Geburtsort</string>
+  <string id="32015">Erotikdarsteller</string>
+  <string id="32016">auch bekannt als</string>
+  <string id="32017">Homepage</string>
+  <string id="32018">Role</string>
+  <string id="32019">Job</string>
+  <string id="32020">Alter %s</string>
+  <string id="32021">seit %s Jahren</string>
+  <string id="32022">Release Date</string>
+
+  <string id="32024">Seite</string>
+  <string id="32025">Items</string>
+
+  <string id="32030">Film Darsteller</string>
+  <string id="32031">Serien Darsteller</string>
+  <string id="32032">Film Director</string>
+  <string id="32033">Personenname eingeben</string>
+  <string id="32034">Personenergebniss für "%s"</string>
+  <string id="32035">Um ein Profil zu bearbeiten...</string>
+  <string id="32036">must Du einen Account bei TMDB haben!</string>
+
+  <string id="32040">Wähle Imagegrösse</string>
+  <string id="32041">Erfolgreich! Neues Bild erstellt.</string>
+  <string id="32042">Fehler! neues Bild konnte nicht erstellt werden!</string>
+
+  <string id="32050">Online Informationen</string>
+  <string id="32051">Trailer</string>
+  <string id="32052">Kein Trailer gefunden!</string>
+
+  <string id="32099">Erotikdarsteller erfassen</string>
+  <string id="32100"></string>
+  
+  <string id="32101"></string>
+  <string id="32102">Qualität der wechselnden Fanarts</string>
+
+  <string id="32105">Dialog info</string>
+  <string id="32106">Zeige komplettes Format</string>
+  <string id="32107">Erotikdarsteller Info anzeigen</string>
+  <string id="32108">nur wenn wahr</string>
+  <string id="32110">Multibilder</string>
+  <string id="32111">erlaube mehrere Bilder</string>
+  <string id="32112">zufällig</string>
+  <string id="32113">Zeit pro Bild (Sekunden)</string>
+  
+  <string id="32121">Wähle ein oder mehrere Fanart für Extrafanart</string>
+  <string id="32122">bestätige Download...</string>
+  <string id="32123">%i von %i wurden ausgewählt!</string>
+  <string id="32124">Wirklich diese Dateien runterladen?</string>
+  <string id="32125">Download: %i of %i - %i%%</string>
+  <string id="32126">Wähle Verzeichnis für&#32;</string>
+  <string id="32127">Extrafanart</string>
+  <string id="32128">Extrathumb</string>
+  <string id="32129">-</string>
+  <string id="32130">-</string>
+  <string id="32131">Wähle ein oder mehrere Dateien für Extrathumb</string>
+
+  <string id="32135">Bestätige überschreiben...</string>
+  <string id="32136">Willst Du deine vorhandenen Dateien überschreiben?</string>
+
+  <string id="32311">Fanart image[CR][CR]nicht verfügbar[CR][CR] Drücke Knopf zum auswählen</string>
+  <string id="32330">Drück ok zum abspielen[CR][CR]Filmtrailer</string>
+</strings>

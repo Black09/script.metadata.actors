@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.metadata.actors" name="Metadata Actors pre-1.0.0"
+       version="0.9.7" provider-name="Frost (passion-xbmc.org)">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py" />
+  <extension point="xbmc.service" library="resources/lib/service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Actors Library</summary>
+    <description lang="en">Actors Library</description>
+    <disclaimer lang="en">If you want more actors or fixing errors of infos. Go to themoviedb.org</disclaimer>
+    <license>GPL</license>
+    <platform>all</platform>
+    <nofanart>true</nofanart>
+  </extension>
+</addon>

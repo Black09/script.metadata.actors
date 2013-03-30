@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <!-- General -->
+  <category label="$LOCALIZE[128]">
+    <setting type="lsep" label="Scraper" />
+    <setting label="32099" type="bool" id="include_adult" default="false"/>
+    <setting type="lsep" label="32010" />
+    <setting label="$LOCALIZE[248]" type="labelenum" values="cs|da|de|el|en|es|fi|fr|he|hr|hu|it|ja|ko|nl|no|pl|pt|ru|sl|sv|tr|zh" id="language" default="en"/>
+
+    <setting type="lsep" label="Images" />
+    <setting id="flipquality" type="slider" label="32102" range="0,1,100" option="percent" default="85" />
+  </category>
+
+  <!-- Dialog Info -->
+  <category label="32105">
+    <setting type="lsep" label="InfoLabels" />
+    <setting label="32107" type="enum" lvalues="106|107|32108" id="showlabeladult" default="1"/>
+    <setting type="sep" />
+    <setting label="$LOCALIZE[14052]" type="enum" lvalues="33013|33012" id="datelongshort" default="0"/>
+    <setting label="$ADDON[script.metadata.actors 32106] [$INFO[System.Date(DDDD D MMMM YYYY)]]" type="bool" id="fulldatelong" enable="eq(-1,0)" default="true"/>
+
+    <setting type="lsep" label="32110" />
+    <setting label="32111" type="bool" id="usemultiimage" default="false"/>
+    <setting label="32112" type="bool" id="randomize" default="false" enable="eq(-1,true)" subsetting="true"/>
+    <setting label="32113" type="slider" id="timeperimage" range="1,1,30" option="int" default="10" enable="eq(-2,true)" subsetting="true"/>
+  </category>
+</settings>

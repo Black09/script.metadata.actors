@@ -1,0 +1,192 @@
+<window id="3001">
+	<defaultcontrol always="true">1001</defaultcontrol>
+	<animation effect="fade" time="250">WindowOpen</animation>
+	<animation effect="fade" time="250">WindowClose</animation>
+	<coordinates>
+		<system>1</system>
+		<posx>640</posx>
+		<posy>0</posy>
+	</coordinates>
+	<controls>
+		<control type="grouplist" id="1000">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>340</width>
+			<height>645</height>
+			<align>bottom</align>
+			<onleft>1000</onleft>
+			<onright>1000</onright>
+			<onup>1000</onup>
+			<ondown>1000</ondown>
+			<itemgap>0</itemgap>
+			<control type="group" id="1">
+				<width>340</width>
+				<height>30</height>
+				<control type="image">
+					<description>background top image</description>
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>340</width>
+					<height>30</height>
+					<texture border="20,19,20,0">actors-DialogContextTop.png</texture>
+				</control>
+				<control type="button" id="20">
+					<description>Close Window button</description>
+					<posx>260</posx>
+					<posy>5</posy>
+					<width>64</width>
+					<height>32</height>
+					<label>-</label>
+					<font>-</font>
+					<onclick>PreviousMenu</onclick>
+					<texturefocus>actors-DialogCloseButton-focus.png</texturefocus>
+					<texturenofocus>actors-DialogCloseButton.png</texturenofocus>
+					<onleft>1001</onleft>
+					<onright>1001</onright>
+					<onup>1011</onup>
+					<ondown>1001</ondown>
+					<visible>system.getbool(input.enablemouse)</visible>
+				</control>
+			</control>
+			<control type="button" id="1001">
+				<width>340</width>
+				<height>38</height>
+				<textcolor>FF999999</textcolor>
+				<focusedcolor>FFFFFFFF</focusedcolor>
+				<align>center</align>
+				<textwidth>290</textwidth>
+				<texturefocus border="25,5,25,5">actors-ShutdownButtonFocus.png</texturefocus>
+				<texturenofocus border="25,5,25,5">actors-ShutdownButtonNoFocus.png</texturenofocus>
+				<pulseonselect>no</pulseonselect>
+				<label>-</label>
+			</control>
+			<control type="button" id="1002">
+				<width>340</width>
+				<height>38</height>
+				<textcolor>FF999999</textcolor>
+				<focusedcolor>FFFFFFFF</focusedcolor>
+				<align>center</align>
+				<textwidth>290</textwidth>
+				<texturefocus border="25,5,25,5">actors-ShutdownButtonFocus.png</texturefocus>
+				<texturenofocus border="25,5,25,5">actors-ShutdownButtonNoFocus.png</texturenofocus>
+				<pulseonselect>no</pulseonselect>
+				<label>-</label>
+			</control>
+			<control type="button" id="1003">
+				<width>340</width>
+				<height>38</height>
+				<textcolor>FF999999</textcolor>
+				<focusedcolor>FFFFFFFF</focusedcolor>
+				<align>center</align>
+				<textwidth>290</textwidth>
+				<texturefocus border="25,5,25,5">actors-ShutdownButtonFocus.png</texturefocus>
+				<texturenofocus border="25,5,25,5">actors-ShutdownButtonNoFocus.png</texturenofocus>
+				<pulseonselect>no</pulseonselect>
+				<label>-</label>
+			</control>
+			<control type="button" id="1004">
+				<width>340</width>
+				<height>38</height>
+				<textcolor>FF999999</textcolor>
+				<focusedcolor>FFFFFFFF</focusedcolor>
+				<align>center</align>
+				<textwidth>290</textwidth>
+				<texturefocus border="25,5,25,5">actors-ShutdownButtonFocus.png</texturefocus>
+				<texturenofocus border="25,5,25,5">actors-ShutdownButtonNoFocus.png</texturenofocus>
+				<pulseonselect>no</pulseonselect>
+				<label>-</label>
+			</control>
+			<control type="button" id="1005">
+				<width>340</width>
+				<height>38</height>
+				<textcolor>FF999999</textcolor>
+				<focusedcolor>FFFFFFFF</focusedcolor>
+				<align>center</align>
+				<textwidth>290</textwidth>
+				<texturefocus border="25,5,25,5">actors-ShutdownButtonFocus.png</texturefocus>
+				<texturenofocus border="25,5,25,5">actors-ShutdownButtonNoFocus.png</texturenofocus>
+				<pulseonselect>no</pulseonselect>
+				<label>-</label>
+			</control>
+			<control type="button" id="1006">
+				<width>340</width>
+				<height>38</height>
+				<textcolor>FF999999</textcolor>
+				<focusedcolor>FFFFFFFF</focusedcolor>
+				<align>center</align>
+				<textwidth>290</textwidth>
+				<texturefocus border="25,5,25,5">actors-ShutdownButtonFocus.png</texturefocus>
+				<texturenofocus border="25,5,25,5">actors-ShutdownButtonNoFocus.png</texturenofocus>
+				<pulseonselect>no</pulseonselect>
+				<label>-</label>
+			</control>
+			<control type="button" id="1007">
+				<width>340</width>
+				<height>38</height>
+				<textcolor>FF999999</textcolor>
+				<focusedcolor>FFFFFFFF</focusedcolor>
+				<align>center</align>
+				<textwidth>290</textwidth>
+				<texturefocus border="25,5,25,5">actors-ShutdownButtonFocus.png</texturefocus>
+				<texturenofocus border="25,5,25,5">actors-ShutdownButtonNoFocus.png</texturenofocus>
+				<pulseonselect>no</pulseonselect>
+				<label>-</label>
+			</control>
+			<control type="button" id="1008">
+				<width>340</width>
+				<height>38</height>
+				<textcolor>FF999999</textcolor>
+				<focusedcolor>FFFFFFFF</focusedcolor>
+				<align>center</align>
+				<textwidth>290</textwidth>
+				<texturefocus border="25,5,25,5">actors-ShutdownButtonFocus.png</texturefocus>
+				<texturenofocus border="25,5,25,5">actors-ShutdownButtonNoFocus.png</texturenofocus>
+				<pulseonselect>no</pulseonselect>
+				<label>-</label>
+			</control>
+			<control type="button" id="1009">
+				<width>340</width>
+				<height>38</height>
+				<textcolor>FF999999</textcolor>
+				<focusedcolor>FFFFFFFF</focusedcolor>
+				<align>center</align>
+				<textwidth>290</textwidth>
+				<texturefocus border="25,5,25,5">actors-ShutdownButtonFocus.png</texturefocus>
+				<texturenofocus border="25,5,25,5">actors-ShutdownButtonNoFocus.png</texturenofocus>
+				<pulseonselect>no</pulseonselect>
+				<label>-</label>
+			</control>
+			<control type="button" id="1010">
+				<width>340</width>
+				<height>38</height>
+				<textcolor>FF999999</textcolor>
+				<focusedcolor>FFFFFFFF</focusedcolor>
+				<align>center</align>
+				<textwidth>290</textwidth>
+				<texturefocus border="25,5,25,5">actors-ShutdownButtonFocus.png</texturefocus>
+				<texturenofocus border="25,5,25,5">actors-ShutdownButtonNoFocus.png</texturenofocus>
+				<pulseonselect>no</pulseonselect>
+				<label>-</label>
+			</control>
+			<control type="button" id="1011">
+				<width>340</width>
+				<height>38</height>
+				<textcolor>FF999999</textcolor>
+				<focusedcolor>FFFFFFFF</focusedcolor>
+				<align>center</align>
+				<textwidth>290</textwidth>
+				<texturefocus border="25,5,25,5">actors-ShutdownButtonFocus.png</texturefocus>
+				<texturenofocus border="25,5,25,5">actors-ShutdownButtonNoFocus.png</texturenofocus>
+				<pulseonselect>no</pulseonselect>
+				<label>-</label>
+			</control>
+			<control type="image" id="1998">
+				<description>background bottom image</description>
+				<posx>0</posx>
+				<width>340</width>
+				<height>22</height>
+				<texture border="20,0,19,20">actors-DialogContextBottom.png</texture>
+			</control>
+		</control>
+	</controls>
+</window>

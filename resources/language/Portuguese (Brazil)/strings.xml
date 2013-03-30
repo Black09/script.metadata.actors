@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<strings>
+  <!-- General strings -->
+  <string id="32000">XBMC Metadata de Atores</string>
+
+  <string id="32010">Filmografia</string>
+  <string id="32011">Filmes conhecidos</string>
+  <string id="32012">Nascido em</string>
+  <string id="32013">Data da morte</string>
+  <string id="32014">Natural de</string>
+  <string id="32015">Ator Adulto</string>
+  <string id="32016">Outros Nomes</string>
+  <string id="32017">Homepage</string>
+  <string id="32018">Papel</string>
+  <string id="32019">Tarefa</string>
+  <string id="32020">Idade %s</string>
+  <string id="32021">Desde %s anos</string>
+  <string id="32022">Lançado em</string>
+
+  <string id="32024">Página</string>
+  <string id="32025">Itens</string>
+
+  <string id="32030">Filmes em que atuou</string>
+  <string id="32031">Seriados em que atuou</string>
+  <string id="32032">Filmes que dirigiu</string>
+  <string id="32033">Digite o nome da pessoa</string>
+  <string id="32034">Resultados para "%s"</string>
+  <string id="32035">Para editar um perfil...</string>
+  <string id="32036">você deve possuir uma conta no TMDB!</string>
+
+  <string id="32040">Selecione o tamanho da imagem</string>
+  <string id="32041">Sucesso! Nova miniatura criada.</string>
+  <string id="32042">Erro! Impossível criar uma nova miniatura!</string>
+  
+  <string id="32050">Informação Online</string> 
+  <string id="32051">Trailers</string> 
+  <string id="32052">Nenhum trailer encontrado</string>  
+  
+  <string id="32099">Incluir Estrelas Pornográficas</string>
+  <string id="32100">Título e Poster do Filme</string>
+  <string id="32101">Mostrar Título Original</string>
+  <string id="32102">Qualidade dos fanarts lançados</string>
+
+  <string id="32105">Info na caixa de diálogo</string>
+  <string id="32106">Mostrar formato cheio</string>
+  <string id="32107">Mostrar etiqueta Ator Adulto</string>
+  <string id="32108">Somente se verdadeiro</string>
+
+  <string id="32110">Múltiplas imagens</string>
+  <string id="32111">ligar Múltiplas imagens</string>
+  <string id="32112">Randomizar</string>
+  <string id="32113">Tempo por imagem (segundos)</string>
+  
+  <string id="32121">Selecione um fanart ou mais para extrafanarts</string>
+  <string id="32122">Confirme Downloading...</string>
+  <string id="32123">%i de %i foi selecionado!</string>
+  <string id="32124">Você tem certeza que quer fazer download destes arquivos?</string>
+  <string id="32125">Download: %i de %i - %i%%</string>
+  <string id="32126">Escolha pasta para  </string>
+  <string id="32127">extrafanart</string>
+  <string id="32128">extrathumb</string>
+  <string id="32129">-</string>
+  <string id="32130">-</string>
+  <string id="32131">Selecione uma miniatura ou mais para extrathumbs</string>
+
+  <string id="32135">Confirme sobrepor...</string>
+  <string id="32136">Você deseja sobrepor seus arquivos existentes?</string>
+
+  <string id="32311">Imagem de Fanart[CR][CR]Indisponível[CR][CR] Clique no botão para setar</string>
+  <string id="32330">Clique no botão para reproduzir[CR][CR]trailer do filme</string>
+ 
+</strings>

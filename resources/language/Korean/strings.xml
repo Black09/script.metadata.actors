@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+  <!-- General strings -->
+  <string id="32000">XBMC Metadata Actors</string>
+
+  <string id="32010">필모그래피</string>
+  <string id="32011">알려진 영화</string>
+  <string id="32012">출생일</string>
+  <string id="32013">사망일</string>
+  <string id="32014">출생지</string>
+  <string id="32015">성인물 배우</string>
+  <string id="32016">디른 이름</string>
+  <string id="32017">홈페이지</string>
+  <string id="32018">배역</string>
+  <string id="32019">작업</string>
+  <string id="32020">%s세</string>
+  <string id="32021">since %s years</string>
+  <string id="32022">출시일</string>
+
+  <string id="32024">페이지</string>
+  <string id="32025">항목</string>
+
+  <string id="32030">개의 출연한 영화 찾음</string>
+  <string id="32031">개의 출연한 TV쇼 찾음</string>
+  <string id="32032">개의 감독한 영화 찾음</string>
+  <string id="32033">인물 이름 입력</string>
+  <string id="32034">"%s" 의 인물 검색 결과 </string>
+  <string id="32035">프로파일을 수정 하려면...</string>
+  <string id="32036">TMDB 계정이 있어야 합니다!</string>
+
+  <string id="32040">이미지 크기 선택</string>
+  <string id="32041">성공! 새 미리보기 생성.</string>
+  <string id="32042">오류! 새 미리보기 생성 불가!</string>
+
+  <string id="32050">온라인 정보</string>
+  <string id="32051">예고편</string>
+  <string id="32052">예고편 찾을 수 없음!</string>
+
+  <string id="32099">성인물 배우 포함</string>
+  <string id="32100"></string>
+  <string id="32101"></string>
+  <string id="32102">팬아트 뒤집기 품질</string>
+  
+  <string id="32105">대화창</string>
+  <string id="32106">전체 포맷 보기</string>
+  <string id="32107">성인물 배우 여부 표시</string>
+  <string id="32108">성인물 배우일 경우만</string>
+  
+  <string id="32110">다중 이미지</string>
+  <string id="32111">다중 이미지 활성화</string>
+  <string id="32112">무작위</string>
+  <string id="32113">이미지별 시간 (초)</string>
+  
+  <string id="32121">한개 선택: 팬아트, 여러개 선택: 추가팬아트(extrafanart)</string>
+  <string id="32122">다운로드 확인...</string>
+  <string id="32123">%i개가 %i중에서 선택되었습니다!</string>
+  <string id="32124">다운로드 하시겠습니까?</string>
+  <string id="32125">다운로드: %i of %i - %i%%</string>
+  <string id="32126">폴더 선택:&#32;</string>
+  <string id="32127">추가팬아트(extrafanart)</string>
+  <string id="32128">추가미리보기(extrathumb)</string>
+  <string id="32129">-</string>
+  <string id="32130">-</string>
+  <string id="32131">한개선택: 미리보기, 여러개 선택: 추가미리보기(extrathumb)</string>
+
+  <string id="32135">덮어쓰기 확인...</string>
+  <string id="32136">기존 파일을 덮어 쓰시겟습니까?</string>
+  
+  <string id="32311">팬아트 이미지를[CR][CR]사용할 수 없음[CR][CR] 버튼을 눌러 설정하세요</string>
+  <string id="32330">예고편을 재생하려면[CR][CR]클릭하세요</string>
+</strings>

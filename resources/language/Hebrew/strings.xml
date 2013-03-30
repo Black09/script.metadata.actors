@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+  <!-- General strings -->
+  <string id="32000">XBMC Metadata Actors</string>
+
+  <string id="32010">פילמוגרפיה</string>
+  <string id="32011">סרטים ידועים</string>
+  <string id="32012">יום הולדת</string>
+  <string id="32013">יום פטירה</string>
+  <string id="32014">מקום לידה</string>
+  <string id="32015">סרטים למבוגרים</string>
+  <string id="32016">ידוע גם</string>
+  <string id="32017">דף בית</string>
+  <string id="32018">תפקיד</string>
+  <string id="32019">מקצוע</string>
+  <string id="32020">גיל %s</string>
+  <string id="32021">לפני %s שנים</string>
+  <string id="32022">יום שחרור</string>
+
+  <string id="32024">דף</string>
+  <string id="32025">פריטים</string>
+
+  <string id="32030">משחק בסרטים</string>
+  <string id="32031">משחק בתוכניות</string>
+  <string id="32032">בימוי סרטים</string>
+  <string id="32033">הזן שם</string>
+  <string id="32034">תוצאות עבור "%s"</string>
+  <string id="32035">עבור עריכת פרופיל...</string>
+  <string id="32036">אתה חייב חשבון באתר TMDB!</string>
+
+  <string id="32040">בחר גודל תמונה</string>
+  <string id="32041">הצליח! תמונה ממוזערת חדשה נוצרה.</string>
+  <string id="32042">שגיאה! אין אפשרות ליצור תמונה ממוזערת חדשה!</string>
+
+  <string id="32050">מידע מקוון</string>
+  <string id="32051">קדימונים</string>
+  <string id="32052">קדימונים לא נמצאו!</string>
+
+  <string id="32099">כלול כוכבי פורנו</string>
+  <string id="32100"></string>
+  <string id="32101"></string>
+  <string id="32102">איכות תמונות פאנארט הפוכות</string>
+
+  <string id="32105">מידע דו-שיח</string>
+  <string id="32106">הצג פורמט מלא</string>
+  <string id="32107">הצג את התויות סרטים למבוגרים</string>
+  <string id="32108">רק אם נכון</string>
+
+  <string id="32110">תמונה מרובה</string>
+  <string id="32111">הפעל ריבוי תמונות</string>
+  <string id="32112">אקראי</string>
+  <string id="32113">זמן לכל תמונות (שניה)</string>
+  
+  <string id="32121">בחר פאנארט אחד או יותר עבור extrafanart</string>
+  <string id="32122">אשר הורדה...</string>
+  <string id="32123">%i מתוך %i נבחרו!</string>
+  <string id="32124">האם הינך בטוח שברצונך להוריד קבצים אלו?</string>
+  <string id="32125">הורדה: %i מתוך %i - %i%%</string>
+  <string id="32126">בחר תיקיה עבור&#32;</string>
+  <string id="32127">extrafanart</string>
+  <string id="32128">extrathumb</string>
+  <string id="32129">-</string>
+  <string id="32130">-</string>
+  <string id="32131">בחר תמונה ממוזערת אחד או יותר עבור extrathumb</string>
+
+  <string id="32135">אשר דריסה...</string>
+  <string id="32136">האם ברצונל לדרוס את הקבצים הקיימים?</string>
+
+  <string id="32311">תמונת פאנארט[CR][CR]לא זמינה[CR][CR] לחץ כדי להגדיר</string>
+  <string id="32330">לחץ על הכפתור כדי לנגן[CR][CR]קדימון סרט</string>
+</strings>

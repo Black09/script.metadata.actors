@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+  <!-- General strings -->
+  <string id="32000">XBMC aktorių metaduomenys</string>
+
+  <string id="32010">Filmografija</string>
+  <string id="32011">Žinomi filmai</string>
+  <string id="32012">Gimimo diena</string>
+  <string id="32013">Mirties diena</string>
+  <string id="32014">Gimimo vieta</string>
+  <string id="32015">Suaugusiųjų aktorius</string>
+  <string id="32016">Taip pat žinomas kaip</string>
+  <string id="32017">Pagrindinis puslapis</string>
+  <string id="32018">Vaidmuo</string>
+  <string id="32019">Darbas</string>
+  <string id="32020">amžius %s</string>
+  <string id="32021">nuo %s metai</string>
+  <string id="32022">Atleiskite data</string>
+
+  <string id="32024">Puslapis</string>
+  <string id="32025">Elementai</string>
+
+  <string id="32030">Filmai veikiantys</string>
+  <string id="32031">TvShows veikiantys</string>
+  <string id="32032">Filmai krypties</string>
+  <string id="32033">Įveskite asmens vardą</string>
+  <string id="32034">Asmens rezultatai taikomi "%s"</string>
+  <string id="32035">Norėdami redaguoti profilį...</string>
+  <string id="32036">Jūs privalote turėti paskyrą TMDB!</string>
+
+  <string id="32040">Pasirinkite vaizdo dydi</string>
+  <string id="32041">Sėkmė! Naujas thumb sukurtas.</string>
+  <string id="32042">Klaida! Neįmanoma sukurti naują thumb!</string>
+
+  <string id="32050">Informacija internete</string>
+  <string id="32051">Filmo anonsas</string>
+  <string id="32052">Nėra filmo anonso!</string>
+
+  <string id="32099">Įtraukti 'Porno žvaigždės'</string>
+  <string id="32100"></string>
+  <string id="32101"></string>
+  <string id="32102">Velniška fanarts kokybė</string>
+
+  <string id="32105">Dialogo informacija</string>
+  <string id="32106">Rodyti visą formatą</string>
+  <string id="32107">Rodyti etiketę 'Suaugusiųjų aktorius'</string>
+  <string id="32108">Tik jei tiesa</string>
+
+  <string id="32110">Multi paveikslėlis</string>
+  <string id="32111">Įjungti multi paveikslėlį</string>
+  <string id="32112">Atsitiktinia tvarka</string>
+  <string id="32113">Paveikslėlio rodymas(sekundės)</string>
+  
+  <string id="32121">Pasirinkite vieną fanart ar daugiau už extrafanart</string>
+  <string id="32122">Patvirtinkite parsisiuntimą...</string>
+  <string id="32123">%i iš %i buvo pasirinktos!</string>
+  <string id="32124">Ar esate tikri, atsisiųsti šiuos failus?</string>
+  <string id="32125">Parsisiųsti: %i iš %i - %i%%</string>
+  <string id="32126">Pasirinkite aplanką&#32;</string>
+  <string id="32127">extrafanart</string>
+  <string id="32128">extrathumb</string>
+  <string id="32129">-</string>
+  <string id="32130">-</string>
+  <string id="32131">Pasirinkite vieną thumb ar daugiau extrathumb</string>
+
+  <string id="32135">Patvirtinkite perrašyti...</string>
+  <string id="32136">Ar norite perrašyti savo esamus failus?</string>
+
+  <string id="32311">Fanart paveikslėlis[CR][CR]Neprieinamas[CR][CR] Paspauskite mygtuką, norėdami nustatyti</string>
+  <string id="32330">Paspauskite mygtuką groti[CR][CR]Filmo anonsą</string>
+</strings>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+  <!-- General strings -->
+  <string id="32000">XBMC Színészinformációk</string>
+
+  <string id="32010">Filmográfia</string>
+  <string id="32011">Filmek</string>
+  <string id="32012">Született</string>
+  <string id="32013">Meghalt</string>
+  <string id="32014">Születési hely</string>
+  <string id="32015">Pornószínész</string>
+  <string id="32016">Ismert szerepei</string>
+  <string id="32017">Honlap</string>
+  <string id="32018">Szerep</string>
+  <string id="32019">Munka</string>
+  <string id="32020">kor %s éves</string>
+  <string id="32021">%s évesen</string>
+  <string id="32022">Megjelenési dátum</string>
+
+  <string id="32024">Lap</string>
+  <string id="32025">Elem</string>
+
+  <string id="32030">Filmszínész</string>
+  <string id="32031">TV színész</string>
+  <string id="32032">Filmrendező</string>
+  <string id="32033">Add meg a nevet</string>
+  <string id="32034">Adatok letöltése "%s"</string>
+  <string id="32035">Profil szerkesztése...</string>
+  <string id="32036">Szükséged lesz egy TMDB felhasználói fiókra!</string>
+
+  <string id="32040">Válassza ki a képméretet</string>
+  <string id="32041">Sikerült! Új bélyegkép létrehozva.</string>
+  <string id="32042">Hiba! Bélyegkép létrehozása nem sikerült!</string>
+
+  <string id="32050">Online informaciók</string>
+  <string id="32051">Előzetesek</string>
+  <string id="32052">Nem találtam trailer-t!</string>
+
+  <string id="32099">Pornósztárok megjelenítése</string>
+  <string id="32100"></string>
+  <string id="32101"></string>
+  <string id="32102">Fanart-ok minősége</string>
+
+  <string id="32105">Infópanel</string>
+  <string id="32106">Mutasd teljes formátumban</string>
+  <string id="32107">Felnőttszínészek képei</string>
+  <string id="32108">Csak akkor ha igaz</string>
+
+  <string id="32110">Több kép</string>
+  <string id="32111">Több kép engedélyezése</string>
+  <string id="32112">Vétlenszerű</string>
+  <string id="32113">Képek váltásakor eltelt idő (mp.)</string>
+  
+  <string id="32121">Válasszon ki egy fanart-ot, vagy több extrafanart-ot</string>
+  <string id="32122">Erősítse meg a letöltést...</string>
+  <string id="32123">%i of %i kijelölve!</string>
+  <string id="32124">Biztos benne, hogy letölti a fájlokat?</string>
+  <string id="32125">Letöltés: %i of %i - %i%%</string>
+  <string id="32126">Válassza ki a mappát&#32;</string>
+  <string id="32127">extrafanart</string>
+  <string id="32128">extrabélyegkép</string>
+  <string id="32129">-</string>
+  <string id="32130">-</string>
+  <string id="32131">Válasszon ki egy bélyegképet, vagy több extra bélyegképet</string>
+
+  <string id="32135">Biztosan felülírja?</string>
+  <string id="32136">Szeretné felülírni a fájlokat?</string>
+
+  <string id="32311">Fanart kép[CR][CR]Nem elérhető![CR][CR] Kattintson a gombra hozzáadáshoz.</string>
+  <string id="32330">Kattintson a gombra[CR][CR]A trailer lejátszásához</string>
+</strings>
