@@ -589,21 +589,9 @@ class MovieInfo( xbmcgui.WindowXMLDialog ):
             listitem.setProperty( "Homepage",    self.movie.get( "homepage" , "" ) )
             listitem.setProperty( "onlineinfo",  self.online_info )
             if self.library:
-                try: self.moviedirector = ' / '.join( self.movie[ "director" ] )
-                except: self.moviedirector = ''
-                try: self.moviegenre = ' / '.join( self.movie[ "genre" ] )
-                except: self.moviegenre = ''
-                try: self.moviestudio = ' / '.join( self.movie[ "studio" ] )
-                except: self.moviestudio = ''
-                try: self.moviewriter = ' / '.join( self.movie[ "writer" ] )
-                except: self.moviewriter = ''
                 listitem.setProperty( "set", self.movie[ "set" ] )
                 listitem.setProperty( "dbid", self.movieid )
             else:
-                self.moviedirector = self.movie[ "director" ]
-                self.moviegenre = self.movie[ "genre" ]
-                self.moviestudio = self.movie[ "studio" ]
-                self.moviewriter = self.movie[ "writer" ]
                 try: listitem.setProperty( "set", ' / '.join( self.movie[ "set" ] ) )
                 except: pass
             infoLabels = {
@@ -611,19 +599,19 @@ class MovieInfo( xbmcgui.WindowXMLDialog ):
                 "year":          self.movie[ "year" ],
                 "plot":          self.movie[ "plot" ],
                 "originaltitle": self.movie[ "originaltitle" ],
-                "director":      self.moviedirector,
+                "director":      metautils.array_to_string( self.movie[ "director" ], ' / ' ) if self.library else self.movie[ "director" ],
                 "trailer":       self.movie[ "trailer" ],
-                "genre":         self.moviegenre,
+                "genre":         metautils.array_to_string( self.movie[ "genre" ], ' / ' ) if self.library else self.movie[ "genre" ],
                 "mpaa":          self.movie[ "mpaa" ],
                 "playcount":     self.movie[ "playcount" ],
                 "plotoutline":   self.movie[ "plotoutline" ],
                 "rating":        self.movie[ "rating" ],
-                "duration":      self.movie[ "runtime" ],
-                "studio":        self.moviestudio,
+                "duration":      self.movie[ "runtime" ] / 60 if self.library else self.movie[ "runtime" ],
+                "studio":        metautils.array_to_string( self.movie[ "studio" ], ' / ' ) if self.library else self.movie[ "studio" ],
                 "tagline":       self.movie[ "tagline" ],
                 "top250":        self.movie[ "top250" ],
                 "votes":         self.movie[ "votes" ],
-                "writer":        self.moviewriter,
+                "writer":        metautils.array_to_string( self.movie[ "writer" ], ' / ' ) if self.library else self.movie[ "writer" ],
                 "lastplayed":    self.movie[ "lastplayed" ],
                 "date":          self.movie.get( "date" ) or ""
             }

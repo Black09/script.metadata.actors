@@ -194,10 +194,22 @@ def getXBMCActors( where=LIBRARY_TYPE, busy=True ):
     return Actors
 
 
-def normalize_string( text ):
-    try: text = unicodedata.normalize( 'NFKD', text ).encode( 'ascii', 'ignore' )
+def string_unicode(text, encoding='utf-8'):
+    try: text = unicode( text, encoding )
     except: pass
     return text
+
+
+def normalize_string(text):
+    try: text = unicodedata.normalize('NFKD', string_unicode(text)).encode('ascii', 'ignore')
+    except: pass
+    return text
+    
+    
+def array_to_string(array, separator=' '):
+    try: array = separator.join( array )
+    except: array = ''
+    return array
 
 
 def getActorPaths( actor, actors ):
