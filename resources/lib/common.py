@@ -12,11 +12,6 @@ dateformat = ( "long", "short" )[ ADDON.getSetting( "fulldatelong" ) == "false" 
 
 BIRTH_MONTHDAY = metautils.datetime.datetime.today().strftime( "%m-%d" )
 
-def _unicode( text, encoding='utf-8' ):
-    try: text = unicode( text, encoding )
-    except: pass
-    return text
-
 def setActorProperties( listitem, actor ):
     birthday = actor.get( "birthday" ) or ""
     if birthday and BIRTH_MONTHDAY in str( birthday ):
@@ -35,8 +30,8 @@ def setActorProperties( listitem, actor ):
 
     birthday = metautils.get_user_date_format( birthday, bdayformat )
     deathday = metautils.get_user_date_format( ( actor[ "deathday" ] or "" ), bdayformat )
-    listitem.setProperty( "Birthday",     str( _unicode( metautils.translate_date( birthday, dateformat ) ) ) )
-    listitem.setProperty( "Deathday",     str( _unicode( metautils.translate_date( deathday, dateformat ) ) ) )
+    listitem.setProperty( "Birthday",     unicode( metautils.translate_date( birthday, dateformat ) ) )
+    listitem.setProperty( "Deathday",     unicode( metautils.translate_date( deathday, dateformat ) ) )
 
     actuel_age, dead_age, dead_since = metautils.get_ages( actor[ "birthday" ], actor[ "deathday" ] )
     listitem.setProperty( "Age",          actuel_age )
