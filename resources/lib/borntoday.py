@@ -1,4 +1,3 @@
-
 import time
 START_TIME = time.time()
 
@@ -117,7 +116,7 @@ def ClearProperties( limit ):
 def setImages( b_prop, name ):
     if not TBN: return
     SetProperty( b_prop + "fanart", "" )
-    for fanart in TBN.get_fanarts( name ):
+    for fanart in TBN.get_fanart( name ):
         if xbmcvfs.exists( fanart ):
             SetProperty( b_prop + "fanart", fanart )
             break
