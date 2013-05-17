@@ -607,7 +607,7 @@ class MovieInfo( xbmcgui.WindowXMLDialog ):
                 "plotoutline":   self.movie[ "plotoutline" ],
                 "rating":        self.movie[ "rating" ],
                 "duration":      self.movie[ "runtime" ] / 60 if self.library else self.movie[ "runtime" ],
-                "studio":        metautils.array_to_string( self.movie[ "studio" ], ' / ' ) if self.library else self.movie[ "studio" ],
+                "studio":        metautils.array_to_string( self.movie[ "studio" ], ' / ' ) if self.library else self.movie[ "studio" ].split(' / ')[0],
                 "tagline":       self.movie[ "tagline" ],
                 "top250":        self.movie[ "top250" ],
                 "votes":         self.movie[ "votes" ],
